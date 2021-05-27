@@ -1,13 +1,21 @@
-C#
------------------------------------------------------------------
+# C#
 
 1. Einfuehrung
 
-C# ist eine typsichere, objektorientierte Allzweck-Programmiersprache. Historisch wurde in C# fast exklusiv für Windows entwickelt. Durch Xamarin ist es inzwischen aber auch möglich, für macOS, iOS und Android zu entwickeln. Zudem gibt es mit .NET Core auch offizielle Unterstützung für GNU/Linux und macOS [1].
+C# ist eine *typsichere*, *objektorientierte* Allzweck-Programmiersprache. Historisch wurde in C# fast exklusiv für Windows entwickelt. Durch Xamarin ist es inzwischen aber auch möglich, für macOS, iOS und Android zu entwickeln. Zudem gibt es mit .NET Core auch offizielle Unterstützung für GNU/Linux und macOS [1].
 
 In der normalen Betriebsart werden C#-Quelltexte in eine mist als IL bezeichnete Zwischensprache übersetzt, die (normalerweise durch einen JIT-Compiler) auf allen Plattformen ausgeführt werden kann, auf denen eine geeignete Laufzeitumgebung KAUDERWELSCH zur Verfügung steht. Darüber hinaus gibt es verschiedene Ansätze der AOT-Compilierung um plattformspezifischen Maschinencode vorab zu erzeugen.
 
-Bis Version 2 war die Sprache bei ISO[2] als Standard regstriert. In der Folge erschienen regelmäßig umfangreiche Erweiterungen der Sprache durch Microsoft. Durch die Entwicklung des Referenc-Compilers als Open Source (seit 2014) sind auch Community-Beiträge möglich. 
+Bis Version 2 war die Sprache bei ISO[2] als Standard regstriert. In der Folge erschienen regelmäßig umfangreiche Erweiterungen der Sprache durch Microsoft. Durch die Entwicklung des Referenc-Compilers als Open Source (seit 2014) sind auch Community-Beiträge möglich.
+
+Kleine Liste:
+    - Punkt 1
+    - Punkt 2
+    - Punkt 3
+
+> Old text ...
+
+[Google](https://www.google.de)
 
 2. Konzepts
 
@@ -17,7 +25,9 @@ Einige der Elemente von C++, die im Allgemeinen als unsicher gelten, wie beispie
 
 3. Entwicklungsschritte
 
-2002 	.NET 1.0 	C# 1.0 
+| Jahr | .NET-Version | C#-Version |
+| ---- | ------------ | ---------- |
+| 2002| .NET 1.0 | C# 1.0 | 
 2003 	.NET 1.1 	C# 1.2 
 2005 	.NET 2.0  C# 2.0
 2006 	.NET 2.0  C# 3.0
